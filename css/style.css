@@ -1,0 +1,62 @@
+body {
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+p {
+  margin-top: 5%;
+}
+p a {
+  text-decoration: none;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td a {
+  text-decoration: none;
+  color: black;
+  float: left;
+  margin: 3%;
+}
+
+input {
+  background: none;
+  border: none;
+  font-family: 'Cinzel', serif;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#outerMain {
+  display: table;
+  margin: 0 auto 0 auto;
+}
+
+#evenRow {
+  background-color: silver;
+}
+
+main div {
+  width: 100%;
+}
+
+#numCol {
+  width: 10%;
+}
+
+#nameCol {
+  width: 50%;
+}
+
+#recentCol,
+#allTimeCol {
+  width: 20%;
+}
